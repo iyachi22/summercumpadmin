@@ -6,7 +6,6 @@ import { AdminHeader } from "@/components/admin/AdminHeader";
 import { DashboardOverview } from "@/components/admin/DashboardOverview";
 import { InscriptionsTable } from "@/components/admin/InscriptionsTable";
 import { AdminStats } from "@/components/admin/AdminStats";
-import { TestAteliers } from "@/components/admin/TestAteliers";
 
 const Admin = () => {
   const [activeTab, setActiveTab] = useState("dashboard");
@@ -19,8 +18,6 @@ const Admin = () => {
         return <InscriptionsTable />;
       case "stats":
         return <AdminStats />;
-      case "test":
-        return <TestAteliers />;
       default:
         return <DashboardOverview />;
     }
