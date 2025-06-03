@@ -14,12 +14,8 @@ This project is built with:
 
 ## How can I deploy this project?
 
+To deploy this project, follow these steps:
 
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-
+1. Install dependencies: `npm install`
+2. Build the project: `npm run build`
+3. Deploy the contents of the `dist` folder to your preferred hosting service.
